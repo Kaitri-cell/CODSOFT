@@ -18,11 +18,9 @@ int main() {
         }
         else if (n > x) {
             cout << "guess lower";
-            break;
         }
         else {
             cout << "guess higher";
-            break;
         }
         cout << endl;
     } while (i >= 0);
